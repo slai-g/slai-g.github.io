@@ -12,7 +12,7 @@ h1 {
   font-style: normal;
   text-align: center;
   margin: auto;
-  font-size: 100;
+  font-size: 100px;
   
 }
 
@@ -23,7 +23,7 @@ h2 {
   font-style: normal;
   text-align: center;
   margin: auto;
-  font-size: 70;
+  font-size: 70px;
 }
 
 p {
@@ -31,48 +31,48 @@ p {
   font-weight: 700;
   font-style: normal;
   margin: auto;
-  font-size: 50;
+  font-size: 50px;
   
 }
 
 .main {
-  width: "80%";
+  width: 80%;
   magin: center;
-  padding: 20;
+  padding: 20px;
   color: #c6b4bc;
-  transition: margin-left 0.5;
+  transition: margin-left 0.5s;
   
 }
 
 .sideNavBar {
-  height: "100%";
-  widht: 0;
+  height: 100%;
+  width: 0px;
   position: fixed;
   z-index: 1;
   background: #060606;
   overflow-x: hidden;
-  padding-top: 30;
-  transition: 0.5;
+  padding-top: 30px;
+  transition: 0.5x;
   
 }
 
 .sideNavBar a {
-  padding: 8 8 8 32;
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
   color: #f7f0f0;
   display: block;
-  transition: 0.3;
+  transition: 0.3s;
   font-family: "Audiowide", serif;
-  font-size: 80;
+  font-size: 80px;
   
 }
 
 .sideNavBar .sideNavCloseBtn {
   position: absolute;
-  top: 0;
-  right: 25;
-  font-size: 70;
-  margin-left: 50;
+  top: 0px;
+  right: 25px;
+  font-size: 70px;
+  margin-left: 50px;
   
 }
 
