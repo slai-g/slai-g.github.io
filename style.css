@@ -1,0 +1,37 @@
+body {
+  background-color: #f5f6f9;
+  color: #0e121e;
+  margin: auto;
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: "Autowide", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: auto;
+  font-size: 100;
+  
+}
+
+h2 {
+  font-family: "Oxanium", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  margin: auto;
+  font-size: 50;
+}
+
+p {
+  font-family: "Chathura", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  margin: auto;
+  font-size: 30;
+  
+}
