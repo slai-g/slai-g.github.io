@@ -1,5 +1,5 @@
 body {
-  background-color: #f5f6f9;
+  background-color: #f4cedf;
   color: #0e121e;
   margin: auto;
   text-align: center;
@@ -38,6 +38,43 @@ p {
 
 .main {
   width: "80%";
-  magin: auto;
-  padding: 7;
+  magin: center;
+  padding: 20;
+  color: #c6b4bc;
+  transition: margin-left 0.5;
+  
 }
+
+.sideNavBar {
+  height: "100%";
+  widht: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #060606;
+  overflow-x: hidden;
+  padding-top: 30;
+  transition: 0.5;
+  
+}
+
+.sideNavBar a {
+  padding: 8 8 8 32;
+  text-decoration: none;
+  color: #f7f0f0;
+  display: block;
+  transition: 0.3;
+  font-family: "Audiowide", serif;
+  font-size: 80;
+  
+}
+
+.sideNavBar .sideNavCloseBtn {
+  position: absolute;
+  top: 0;
+  right: 25;
+  font-size: 70;
+  margin-left: 50;
+  
+}
+
+
