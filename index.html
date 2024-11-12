@@ -18,24 +18,39 @@
 
 <body>  
   <!-- Creating the header element for the website : should be placed into another html file so it can be loaded later on-->
-  <header>
-    <div style="header">
-      <button class="header-button" href="">Home</button>'
-      <button class="header-button" href="">Gallery</button> <!--Have the art displayed all here, then be hoverable to the individual project links -->
-      <button class="header-button" href="">Projects</button>
-      <button class="header-button" href="">About</button>
-    </div>
+  <div id="sideNav" class="sideNavBar">
+      <a class="sideNavCloseBtn" href="javascript.void(0)" oncick="closeNav()">&times;</a>
+      <a class="header-button" href="#">Home</a>
+      <a class="header-button" href="#">Gallery</a> <!--Have the art displayed all here, then be hoverable to the individual project links -->
+      <a class="header-button" href="#">Projects</a>
+      <a class="header-button" href="#">About</a>
     
-  </header>
+  </div>
 
+  <span onclick="openNav()">Open</span>
+
+  <div id="main">
+    
   <h1>Header 1</h1>
   <h2>Header 2</h2>
   <p>Paragraph text</p>
+    
+    </div>
   
 </body>
 
 
 <script>
+  function openNav(){
+    document.getElementById("#sideNav").style.width = "15%";
+    document.getElementById("#sideNav").style.marginLeft = "15%";
+    document.getElementById("#sideNav").style.backgroundColor = "rgba(209, 89, 143, 0.5)";
+  }
+
+  function closeNav(){
+    document.getElementById("#sideNav").style.width = "0%";
+    document.getElementById("#sideNav").style.marginLeft = "0%";
+  }
 </script>
   
 </html>
