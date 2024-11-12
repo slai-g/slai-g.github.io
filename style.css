@@ -1,5 +1,5 @@
 body {
-  background-color: #f4cedf;
+  background: #f4cedf;
   color: #0e121e;
   margin: auto;
   text-align: center;
@@ -30,7 +30,6 @@ p {
   font-family: "Chathura", serif;
   font-weight: 700;
   font-style: normal;
-  text-align: left;
   margin: auto;
   font-size: 50;
   
@@ -50,7 +49,7 @@ p {
   widht: 0;
   position: fixed;
   z-index: 1;
-  background-color: #060606;
+  background: #060606;
   overflow-x: hidden;
   padding-top: 30;
   transition: 0.5;
