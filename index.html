@@ -1,11 +1,11 @@
-
-
-
 <!DOCTYPE html>
 <head>
   <title>Homepage</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Chathura:wght@100;300;400;700;800&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
   
   <!--
   <script src="">
@@ -15,24 +15,39 @@
 
 <body>  
   <!-- Creating the header element for the website : should be placed into another html file so it can be loaded later on-->
-  <header>
-    <div style="header">
-      <button class="header-button" href="">Home</button>'
-      <button class="header-button" href="">Gallery</button> <!--Have the art displayed all here, then be hoverable to the individual project links -->
-      <button class="header-button" href="">Projects</button>
-      <button class="header-button" href="">About</button>
-    </div>
+  <div id="sideNav" class="sideNavBar">
+      <a href="javascript.void(0)" oncick="closeNav()">&times;</a>
+      <a href="#">Home</a>
+      <a href="#">Gallery</a> <!--Have the art displayed all here, then be hoverable to the individual project links -->
+      <a href="#">Projects</a>
+      <a href="#">About</a>
     
-  </header>
+  </div>
 
+  <span onclick="openNav()">Open</span>
+
+  <div class="main">
+    
   <h1>Header 1</h1>
   <h2>Header 2</h2>
   <p>Paragraph text</p>
+    
+    </div>
   
 </body>
 
 
 <script>
+  function openNav(){
+    document.getElementById("sideNav").style.width = "15%";
+    document.getElementById("main").style.marginLeft = "15%";
+    document.getElementById("sideNav").style.backgroundColor = "rgba(209, 89, 143, 0.5)";
+  }
+
+  function closeNav(){
+    document.getElementById("sideNav").style.width = "0%";
+    document.getElementById("main").style.marginLeft = "0%";
+  }
 </script>
   
 </html>
