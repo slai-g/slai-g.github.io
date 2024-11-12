@@ -1,7 +1,6 @@
 body {
   background: #f4cedf;
   color: #0e121e;
-  margin: auto;
   text-align: center;
   
 }
@@ -45,7 +44,7 @@ p {
 }
 
 .sideNavBar {
-  height: 100%;
+  height: 100vh;
   width: 0px;
   position: fixed;
   z-index: 1;
@@ -72,7 +71,6 @@ p {
   top: 0px;
   right: 25px;
   font-size: 70px;
-  margin-left: 50px;
   
 }
 
