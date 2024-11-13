@@ -68,14 +68,14 @@ a:hover, a:active {
   position: absolute;
   top: 0px;
   right: 25px;
-  font-size: 40px;
+  font-size: 50px;
   
 }
 
 #sideNavOpenBtn {
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 25px 32px;
   color: #f7f0f0;
   font-family: "Audiowide", serif;
-  font-size: 60px;
+  font-size: 50px;
   
 }
