@@ -60,8 +60,8 @@ p {
 }
 
 .sideNavBar a:hover {
-  background: #6d6c6b;
-  
+  background-color: #6d6c6b;
+  color: #f191c1;
 }
 
 .sideNavBar a:active {
