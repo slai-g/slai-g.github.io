@@ -35,8 +35,8 @@ p {
 }
 
 .main {
-  width: 80%;
-  magin: center;
+  width: 100%;
+  magin: auto;
   padding: 20px;
   color: #c6b4bc;
   transition: margin-left 0.5s;
@@ -50,7 +50,6 @@ p {
   z-index: 1;
   background: #060606;
   overflow-x: hidden;
-  padding-top: 30px;
   transition: 0.5s;
   
 }
@@ -64,6 +63,11 @@ p {
   font-family: "Audiowide", serif;
   font-size: 40px;
   text-align: left;
+  
+}
+
+.sideNavBar a.hover {
+  background: #6d6c6b;
   
 }
 
