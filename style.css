@@ -1,6 +1,6 @@
 body {
-  background: #f4cedf;
-  color: #0e121e;
+  background: #09081a;
+  color: #bdbbd8;
   margin: auto;
 }
 
@@ -31,7 +31,6 @@ p {
 .main {
   width: 100%;
   padding: 20px;
-  color: #c6b4bc;
   transition: margin-left 0.5s;
   text-align: center;
 }
@@ -42,6 +41,7 @@ p {
   position: fixed;
   z-index: 1;
   background: #060606;
+  opacity: 0.8;
   overflow-x: hidden;
   transition: 0.5s;
   border-right: 4px solid white;
@@ -59,7 +59,7 @@ p {
   
 }
 
-a:hover, a:active {
+.sideNavBar.a:hover, .sideNavBar.a:active {
   background-color: #6d6c6b;
   color: #f191c1;
 }
@@ -73,7 +73,7 @@ a:hover, a:active {
 }
 
 #sideNavOpenBtn {
-  padding: 0px 0px 0px 32px;
+  padding: 0px 32px 0px 32px;
   color: #f7f0f0;
   font-family: "Audiowide", serif;
   font-size: 50px;
