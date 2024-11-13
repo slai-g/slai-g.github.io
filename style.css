@@ -59,14 +59,9 @@ p {
   
 }
 
-.sideNavBar a:hover {
+a:hover, a:active {
   background-color: #6d6c6b;
   color: #f191c1;
-}
-
-.sideNavBar a:active {
-  background: #6d6c6b;
-  
 }
 
 .sideNavBar .sideNavCloseBtn {
