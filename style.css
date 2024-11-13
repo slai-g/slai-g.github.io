@@ -43,7 +43,8 @@ p {
   background: #060606;
   overflow-x: hidden;
   transition: 0.5s;
-  border-right: 4px solid #f9f7f5;
+  border-right: 0px solid #f9f7f5;
+  line-spacing: 10px;
 }
 
 .sideNavBar a {
