@@ -59,12 +59,12 @@ p {
   
 }
 
-.sideNavBar a.hover {
+a.sideNavBar hover {
   background: #6d6c6b;
   
 }
 
-.sideNavBar a.active {
+a.sideNavBar active {
   background: #6d6c6b;
   
 }
