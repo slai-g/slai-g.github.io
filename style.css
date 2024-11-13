@@ -83,3 +83,12 @@ p {
   font-size: 70px;
   
 }
+#sideNavOpenBtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #f7f0f0;
+  font-family: "Audiowide", serif;
+  font-size: 40px;
+  text-align: left;
+    
+}
