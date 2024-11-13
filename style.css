@@ -36,6 +36,7 @@ p {
 
 .sideNavBar {
   height: 100%;
+  top: 0px;
   width: 0px;
   position: fixed;
   z-index: 1;
