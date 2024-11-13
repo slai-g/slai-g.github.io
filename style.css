@@ -30,7 +30,6 @@ p {
 
 .main {
   width: 100%;
-  padding: 20px;
   transition: margin-left 0.5s;
   text-align: center;
 }
