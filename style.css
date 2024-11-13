@@ -59,7 +59,7 @@ p {
   
 }
 
-a.sideNavBar:hover, a.sideNavBar:active {
+.sideNavBar a:hover, .sideNavBar a:active {
   background-color: #6d6c6b;
   color: #f191c1;
 }
