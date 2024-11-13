@@ -1,7 +1,6 @@
 body {
   background: #f4cedf;
   color: #0e121e;
-  text-align: center;
   margin: auto;
 }
 
@@ -9,8 +8,6 @@ h1 {
   font-family: "Audiowide", serif;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
-  margin: auto;
   font-size: 100px;
   
 }
@@ -20,8 +17,6 @@ h2 {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
-  text-align: center;
-  margin: auto;
   font-size: 70px;
 }
 
@@ -29,18 +24,16 @@ p {
   font-family: "Chathura", serif;
   font-weight: 700;
   font-style: normal;
-  margin: auto;
   font-size: 50px;
   
 }
 
 .main {
   width: 100%;
-  magin: auto;
   padding: 20px;
   color: #c6b4bc;
   transition: margin-left 0.5s;
-  
+  text-align: center;
 }
 
 .sideNavBar {
