@@ -34,6 +34,8 @@ p {
   text-align: center;
 }
 
+/*Side Navigation Bar Customization*/
+
 .sideNavBar {
   height: 100%;
   top: 0px;
@@ -43,7 +45,8 @@ p {
   background: #060606;
   overflow-x: hidden;
   transition: 0.5s;
-  border-right: 0px solid #f9f7f5;
+  border-right: 1px solid #f9f7f5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   line-spacing: 20px;
 }
 
