@@ -15,15 +15,45 @@
 
 <body>  
 
-  <nav class="navbar navbar-expand navbar-sticky-top bg-dark-subtle">
+  <nav class="navbar navbar-dark bg-dark navbar-sticky-top">
     <div class="container-fluid"> <!-- Ensures 100% max width for all screens -->
       <div class="collapse navbar-collapse">
-        
-        <ul class="navbar-nav">
-          <li class="navbar-item">
-            <a class="navbar-link active" aria-current="page" href="#">Home</a>
+        <a class="navbar-brand" href="#">Brand</a> <!-- Ensures that items are positioned towards the right instead of default left-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasNavbar" aria-controls="offCanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offCanvasNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Dark offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Projects</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Project 1</a></li>
+                <li><a class="dropdown-item" href="#">Project 2</a></li>
+                <li><a class="dropdown-item" href="#">Project 3</a></li>
+              </ul>
+            </li>
+
+          <li class="nav-item">
           </li>
         </ul>
+            
+          </div>
+        </div>
         
       </div>
     </div>
