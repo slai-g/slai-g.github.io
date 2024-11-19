@@ -1,11 +1,4 @@
-    .index-slider {
-        background-image: url("images/index_slider.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-align: center center;
-      }
-
-     .bd-placeholder-img {
+    .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
         -webkit-user-select: none;
