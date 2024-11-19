@@ -1,4 +1,4 @@
-    .carousel-item:nth-child(1) {
+    .index-slider {
         background-image: url("images/index_slider.jpg");
         background-repeat: no-repeat;
         background-size: cover;
